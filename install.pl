@@ -16,4 +16,4 @@ select STDIN;
 
 close $vimrc;
 
-`git clone https://github.com/gmarik/vundle.git $ENV{'HOME'}.vim/bundle/vundle`
+`git clone https://github.com/gmarik/vundle.git $ENV{'HOME'}/.vim/bundle/vundle`
