@@ -12,7 +12,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 cal vundle#begin()
 
 " On indique à Vundle de s'auto-gérer
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " Indique ce que doit gérer Vundle
 
