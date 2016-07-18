@@ -4,9 +4,9 @@ use 5.018;
 use autodie;
 use Cwd 'realpath';
 
-say "Backuping your original vimrc";
 eval {
 	rename "$ENV{'HOME'}/.vimrc", "$ENV{'HOME'}/.vimrc.old";
+	say "Old vimrc backuped to ~/.vimrc.old";
 } or do {
 	say "No file to backup";
 };
