@@ -3,10 +3,13 @@
 use 5.018;
 use autodie;
 use Cwd 'realpath';
-use File::Copy 'move';
 
 say "Backuping your original vimrc";
-move "$ENV{'HOME'}/.vimrc", "$ENV{'HOME'}/.vimrc.old";
+eval {
+	rename "$ENV{'HOME'}/.vimrc", "$ENV{'HOME'}/.vimrc.old";
+} or do {
+	say "No file to backup";
+};
 
 say "Writing your new config";
 open my $vimrc, '>', "$ENV{'HOME'}/.vimrc";
