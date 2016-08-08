@@ -1,18 +1,20 @@
-#!/usr/bin/perl -w
+#!perl -w
 
-use 5.018;
+use 5.014;
 use autodie;
 use Cwd 'realpath';
 
-eval {
-	rename "$ENV{'HOME'}/.vimrc", "$ENV{'HOME'}/.vimrc.old";
+my $old_file = $ENV{'HOME'}.'/.vimrc';
+
+if (-e $old_file) {
+	rename $old_file, "$old_file.old";
 	say "Old vimrc backuped to ~/.vimrc.old";
-} or do {
+} else {
 	say "No file to backup";
-};
+}
 
 say "Writing your new config";
-open my $vimrc, '>', "$ENV{'HOME'}/.vimrc";
+open my $vimrc, '>', $old_file;
 
 my $script = realpath($0);
 my $path = $script =~ s#/(\w|\.)+\z##ar;
