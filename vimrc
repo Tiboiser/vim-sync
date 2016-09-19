@@ -29,6 +29,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 syntax on
 colorscheme monokai
 set relativenumber
+set number
 
 let g:lightline = {
       \ 'colorscheme': 'wombat',
