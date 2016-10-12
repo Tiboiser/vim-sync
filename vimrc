@@ -31,6 +31,10 @@ colorscheme monokai
 set relativenumber
 set number
 
-exec "source ".syncdir."vimrc.plugin.conf"
+if has("gui_running")
+	set guifont=Roboto\ Mono\ for\ Powerline
+	set background=dark
+	colorscheme solarized
+endif
 
-exec "source ".syncdir."vimrc.bepo"
+exec "source ".syncdir."vimrc.plugin.conf"
