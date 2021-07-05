@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+BusLineParser	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^public class BusLineParser : MonoBehaviour$/;"	c
+CompleteDistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public CompleteDistBetweenNodes(Parser p) : base(p) {}$/;"	m	class:CompleteDistBetweenNodes
+CompleteDistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public CompleteDistBetweenNodes(Parser p, DistanceComputation d) : base(p, d) {}$/;"	m	class:CompleteDistBetweenNodes
+CompleteDistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^public class CompleteDistBetweenNodes : DistBetweenNodes {$/;"	c
+Controls	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^public class Controls : MonoBehaviour {$/;"	c
+Coord	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public Coord(float la, float lo) {$/;"	m	struct:Coord
+Coord	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^public struct Coord {$/;"	s
+DistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public DistBetweenNodes(Parser p) {$/;"	m	class:DistBetweenNodes
+DistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public DistBetweenNodes(Parser p, DistanceComputation d) {$/;"	m	class:DistBetweenNodes
+DistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^public abstract class DistBetweenNodes {$/;"	c
+DistanceComputation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^public abstract class DistanceComputation {$/;"	c
+Edge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Edge(Edge e) {$/;"	m	struct:Edge
+Edge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Edge(ulong n1, float n2) {$/;"	m	struct:Edge
+Edge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^public struct Edge : IEquatable <Edge> {$/;"	s
+Equals	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool Equals(Edge e) {$/;"	m	struct:Edge
+Equals	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool Equals(Vertex v) {$/;"	m	struct:Vertex
+Equals	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public bool Equals(Coord c) {$/;"	m	struct:Coord
+FastDistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public FastDistBetweenNodes(Parser p) : base(p) {}$/;"	m	class:FastDistBetweenNodes
+FastDistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public FastDistBetweenNodes(Parser p, DistanceComputation d) : base(p, d) {}$/;"	m	class:FastDistBetweenNodes
+FastDistBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^public class FastDistBetweenNodes : DistBetweenNodes {$/;"	c
+FixedUpdate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	void FixedUpdate ()$/;"	m	class:Controls	file:
+GetHashCode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public override int GetHashCode() {$/;"	m	struct:Edge
+GetHashCode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public override int GetHashCode() {$/;"	m	struct:Vertex
+GetHashCode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public override int GetHashCode() {$/;"	m	struct:Coord
+Graph	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Graph()$/;"	m	class:Graph
+Graph	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^public class Graph$/;"	c
+Harversine	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	public Harversine() {}$/;"	m	class:Harversine
+Harversine	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^public class Harversine : DistanceComputation {$/;"	c
+MoveTo	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/MoveTo.cs	/^public class MoveTo : MonoBehaviour {$/;"	c
+N	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public JSONNode N { get; private set; }$/;"	p	class:Parser
+Numerator	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Numerator() {$/;"	m	class:Numerator
+Numerator	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^public class Numerator$/;"	c
+Parser	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public Parser(string file) {$/;"	m	class:Parser
+Parser	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^public class Parser {$/;"	c
+R	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	private const double R = 6371e3f;$/;"	f	class:Harversine	file:
+Start	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	void Start ()$/;"	m	class:Controls	file:
+Start	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/MoveTo.cs	/^	void Start () {$/;"	m	class:MoveTo	file:
+Start	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	void Start()$/;"	m	class:BusLineParser	file:
+ToString	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public override string ToString()$/;"	m	struct:Edge
+ToString	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public override string ToString()$/;"	m	struct:Vertex
+ToString	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public override string ToString()$/;"	m	struct:Coord
+Vertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Vertex(Vertex v) {$/;"	m	struct:Vertex
+Vertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Vertex(ulong n) {$/;"	m	struct:Vertex
+Vertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public Vertex(ulong n, string s) {$/;"	m	struct:Vertex
+Vertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^public struct Vertex : IEquatable <Vertex> {$/;"	s
+addPredEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addPredEdge(Vertex v, Edge e) {$/;"	m	class:Graph
+addPredEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addPredEdge(string name, Edge e) {$/;"	m	class:Graph
+addPredEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addPredEdge(ulong id, Edge e) {$/;"	m	class:Graph
+addSuccEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addSuccEdge(Vertex v, Edge e) {$/;"	m	class:Graph
+addSuccEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addSuccEdge(string name, Edge e) {$/;"	m	class:Graph
+addSuccEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addSuccEdge(ulong id, Edge e) {$/;"	m	class:Graph
+addVertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private void addVertex(LinkedList<Edge> ll) {$/;"	m	class:Graph	file:
+addVertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addVertex(Vertex v) {$/;"	m	class:Graph
+addVertexToNum	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public void addVertexToNum(Vertex v, LinkedListNode< LinkedList<Edge> > l) {$/;"	m	class:Numerator
+beginNode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int beginNode { get; private set; }$/;"	p	class:Parser
+beginWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int beginWay { get; private set; }$/;"	p	class:Parser
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	public abstract double calculate(Coord c1, Coord c2);$/;"	m	class:DistanceComputation
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	public abstract double calculate(double lt1, double ln1, double lt2, double ln2);$/;"	m	class:DistanceComputation
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	public override double calculate(Coord c1, Coord c2) {$/;"	m	class:Harversine
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	public override double calculate(double lt1, double ln1, double lt2, double ln2) {$/;"	m	class:Harversine
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public abstract float calculate(string node1, string node2);$/;"	m	class:DistBetweenNodes
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public override float calculate(string node1, string node2) {$/;"	m	class:CompleteDistBetweenNodes
+calculate	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public override float calculate(string node1, string node2) {$/;"	m	class:FastDistBetweenNodes
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(Vertex v) {$/;"	m	class:Graph
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(Vertex v) {$/;"	m	class:Numerator
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(Vertex v, Edge e) {$/;"	m	class:Graph
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(string name) {$/;"	m	class:Graph
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(string name) {$/;"	m	class:Numerator
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(ulong id) {$/;"	m	class:Graph
+contains	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public bool contains(ulong id) {$/;"	m	class:Numerator
+currNodeInWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private int currNodeInWay;$/;"	f	class:CompleteDistBetweenNodes	file:
+currRelation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private int currRelation;$/;"	f	class:CompleteDistBetweenNodes	file:
+currWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private int currWay;$/;"	f	class:CompleteDistBetweenNodes	file:
+currWayInRelation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private int currWayInRelation;$/;"	f	class:CompleteDistBetweenNodes	file:
+d	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public float d { get; set; }$/;"	p	struct:Edge
+distBetweenNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	private DistBetweenNodes distBetweenNodes;$/;"	f	class:BusLineParser	file:
+distComputation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	protected DistanceComputation distComputation;$/;"	f	class:DistBetweenNodes
+endNode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int endNode { get; private set; }$/;"	p	class:Parser
+endWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int endWay { get; private set; }$/;"	p	class:Parser
+findNode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int findNode(float node) {$/;"	m	class:Parser
+findNode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int findNode(string s) {$/;"	m	class:Parser
+findNode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int findNode(ulong node) {$/;"	m	class:Parser
+findWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int findWay(string s) {$/;"	m	class:Parser
+findWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int findWay(ulong way) {$/;"	m	class:Parser
+g	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	private Graph g;$/;"	f	class:BusLineParser	file:
+getLlEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public LinkedList<Edge> getLlEdge(Vertex v) {$/;"	m	class:Numerator
+getLlEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public LinkedList<Edge> getLlEdge(string name) {$/;"	m	class:Numerator
+getLlEdge	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public LinkedList<Edge> getLlEdge(ulong id) {$/;"	m	class:Numerator
+getNbVertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public long getNbVertex() {$/;"	m	class:Graph
+getOrientation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int getOrientation(int w1, int w2) {$/;"	m	class:Parser
+goal	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/MoveTo.cs	/^	public Transform goal;$/;"	f	class:MoveTo
+id	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public ulong id { get; set; }$/;"	p	struct:Edge
+id	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public ulong id { get; set; }$/;"	p	struct:Vertex
+idDic	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private Dictionary<ulong, LinkedListNode< LinkedList<Edge> > > idDic;$/;"	f	class:Numerator	file:
+incrementationInsideWay	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private int incrementationInsideWay; \/\/ Is +1 (rising) or -1 (falling)$/;"	f	class:CompleteDistBetweenNodes	file:
+initBusStop	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private void initBusStop(string firstBusStop, string way1, string way2) {$/;"	m	class:CompleteDistBetweenNodes	file:
+initDelimiters	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	private void initDelimiters() {$/;"	m	class:Parser	file:
+initRelation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public override void initRelation(int currRelation) {$/;"	m	class:CompleteDistBetweenNodes
+initRelation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public virtual void initRelation(int currRelation) {}$/;"	m	class:DistBetweenNodes
+isBusStopNode	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	private static bool isBusStopNode(JSONNode n) {$/;"	m	class:BusLineParser	file:
+isElemLineRelation	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	private static bool isElemLineRelation (JSONNode n) {$/;"	m	class:BusLineParser	file:
+lat	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public float lat { get; set;}$/;"	p	struct:Coord
+llPred	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private LinkedList< LinkedList<Edge> > llPred; \/\/ Predescessors Vertex$/;"	f	class:Graph	file:
+llSucc	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private LinkedList< LinkedList<Edge> > llSucc; \/\/ Successors Vertex$/;"	f	class:Graph	file:
+lon	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public float lon { get; set;}$/;"	p	struct:Coord
+n	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	private JSONNode n;$/;"	f	class:CompleteDistBetweenNodes	file:
+name	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	public string name { get; set; }$/;"	p	struct:Vertex
+nameDic	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private Dictionary<string, LinkedListNode< LinkedList<Edge> > > nameDic;$/;"	f	class:Numerator	file:
+nbNodes	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	private int nbNodes;$/;"	f	class:Parser	file:
+nbVertex	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private long nbVertex { get; set;}$/;"	p	class:Graph
+nbWays	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	private int nbWays;$/;"	f	class:Parser	file:
+next	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/Parser.cs	/^	public int next(int i, JSONNode n, Func<JSONNode, bool> cmp) {$/;"	m	class:Parser
+numPred	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private Numerator numPred; \/\/ Predescessor Numerator$/;"	f	class:Graph	file:
+numSucc	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Graph/Graph.cs	/^	private Numerator numSucc; \/\/ Successors Numerator$/;"	f	class:Graph	file:
+osmFile	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	public string osmFile;$/;"	f	class:BusLineParser
+p	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	private Parser p;$/;"	f	class:BusLineParser	file:
+p	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	protected Parser p;$/;"	f	class:DistBetweenNodes
+parseBusLine	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	public void parseBusLine(JSONNode n) {$/;"	m	class:BusLineParser
+parseBusLines	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/BusLineParser.cs	/^	public void parseBusLines() {$/;"	m	class:BusLineParser
+rb	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	private Rigidbody rb;$/;"	f	class:Controls	file:
+reverseSpeed	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	public float reverseSpeed;$/;"	f	class:Controls
+rotSpeed	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	public float rotSpeed;$/;"	f	class:Controls
+setCoord	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/distBetweenNodes.cs	/^	public void setCoord(float la, float lo) {$/;"	m	struct:Coord
+speed	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	public float speed;$/;"	f	class:Controls
+toRadians	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/OSMScripts/DistanceComputation.cs	/^	public static double toRadians(double deg) {$/;"	m	class:Harversine
+trans	/home/tiboiser/Documents/Projets/Unity/ExploreMap/Assets/Scripts/Assets Scripts/Controls.cs	/^	private Transform trans;$/;"	f	class:Controls	file:

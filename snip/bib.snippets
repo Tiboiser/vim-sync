@@ -1,0 +1,18 @@
+snippet masc
+@misc{$0<+abbrev+>,
+	author = "<+author+>",
+	title = "<+title+>",
+	month = "<+month+>",
+	year = "<+year+>",
+	howpublished = "\url{<+url+>}"
+}
+endsnippet
+snippet misc
+@misc{$1,
+	author = "$2",
+	title = "$3",
+	month = "$4",
+	year = "$5",
+	howpublished = "\url{$0}"
+}
+endsnippet
