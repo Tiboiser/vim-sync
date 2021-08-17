@@ -43,7 +43,6 @@ set modelines=0" CVE-2007-2438
 
 exec "source ".syncdir."vimrc.plugin.conf"
 
-
 " ################
 " # My customs #
 " ################
