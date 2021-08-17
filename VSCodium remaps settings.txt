@@ -1,0 +1,138 @@
+{
+  "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["t"],
+          "after": ["j"]
+        },
+        {
+          "before": ["s"],
+          "after": ["k"]
+        },
+        {
+            "before": ["ê"],
+            "after": ["s"]
+        },
+        {
+            "before": ["Ê"],
+            "after": ["S"]
+        },
+        {
+            "before": ["à"],
+            "after": ["t"]
+        },
+        {
+            "before": ["À"],
+            "after": ["T"]
+        },
+        {
+            "before": ["c"],
+            "after": ["h"]
+        },
+        {
+            "before": ["r"],
+            "after": ["l"]
+        },
+        {
+            "before": ["l"],
+            "after": ["r"]
+        },
+        {
+            "before": ["H"],
+            "after": ["C"]
+        },
+        {
+            "before": ["h"],
+            "after": ["c"]
+        },
+        {
+            "before": ["è"],
+            "after": ["<C-^>"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["<C-r>"]
+        },
+        {
+            "before": ["<C-u>"],
+            "after": ["<C-v>"]
+        },
+        {
+            "before": ["<C-r>"],
+            "after": ["<C-o>"]
+        },
+        {
+            "before": ["<C-r>"],
+            "after": ["<C-o>"]
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["<C-i>"]
+        },
+        {
+            "before": ["<C-$>"],
+            "after": ["<C-w>"]
+        },
+        {
+          "before": ["ç"],
+          "after": ["A",";","<Esc>"]
+        }
+      ],
+      "vim.visualModeKeyBindingsNonRecursive": [
+        {
+          "before": ["t"],
+          "after": ["j"]
+        },
+        {
+          "before": ["s"],
+          "after": ["k"]
+        },
+        {
+            "before": ["ê"],
+            "after": ["s"]
+        },
+        {
+            "before": ["Ê"],
+            "after": ["S"]
+        },
+        {
+            "before": ["à"],
+            "after": ["t"]
+        },
+        {
+            "before": ["À"],
+            "after": ["T"]
+        },
+        {
+            "before": ["c"],
+            "after": ["h"]
+        },
+        {
+            "before": ["r"],
+            "after": ["l"]
+        },
+        {
+            "before": ["l"],
+            "after": ["r"]
+        },
+        {
+            "before": ["H"],
+            "after": ["C"]
+        },
+        {
+            "before": ["h"],
+            "after": ["c"]
+        },
+        {
+            "before": ["è"],
+            "after": ["<C-^>"] 
+        },
+        {
+          "before": ["ç"],
+          "commands": [":s/\n/;\r/<CR>"]
+        }
+    ],
+    "vim.showMarksInGutter": true,
+    "vim.highlightedyank.enable": true,
+    "vim.surround": false
+
+}
